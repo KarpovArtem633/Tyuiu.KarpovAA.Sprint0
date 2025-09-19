@@ -14,7 +14,7 @@ namespace Tyuiu.KarpovAA.Sprint0.Task2.V0.Test
             var name = "Артём";
             var res = DataService.GetMassage(name);
 
-            Assert.AreEqual("Привет..., Артём", res);
+            Assert.AreEqual("Привет, Артём", res);
         }
     }
 }
